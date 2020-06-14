@@ -2,4 +2,4 @@
 
 ##
 
-Sitio web informativo 
+Sitio web personal
