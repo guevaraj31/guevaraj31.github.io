@@ -16,7 +16,9 @@ var red     = '#AA0000';
 var yellow  = '#FFFF00';
 var orange  = '#FFA500';
 var white   = '#FFFFFF';
-var prevColor1;
+var prevColor1, prevColor2, prevColor3;
+var prevColor4, prevColor5, prevColor6;
+var prevColor7, prevColor8, prevColor9;
 
 /*Asignacion */
 lado1.style.backgroundColor = blue;
@@ -45,33 +47,73 @@ lado1.addEventListener('click',function(e){
 });
 
 lado2.addEventListener('click',function(e){
-    this.style.backgroundColor = '#00AA00';
+    prevColor2 = this.style.backgroundColor;
+    this.style.backgroundColor = green;
+    if(prevColor2 == this.style.backgroundColor)
+    {
+        this.style.backgroundColor = blue;
+    }
 });
 
 lado3.addEventListener('click',function(e){
-    this.style.backgroundColor = '#00AA00';
+    prevColor3 = this.style.backgroundColor;
+    this.style.backgroundColor = green;
+    if(prevColor3 == this.style.backgroundColor)
+    {
+        this.style.backgroundColor = blue;
+    }
 });
 
 lado4.addEventListener('click',function(e){
-    this.style.backgroundColor = '#00AA00';
+    prevColor4 = this.style.backgroundColor;
+    this.style.backgroundColor = green;
+    if(prevColor4 == this.style.backgroundColor)
+    {
+        this.style.backgroundColor = blue;
+    }
 });
 
 lado5.addEventListener('click',function(e){
-    this.style.backgroundColor = '#00AA00';
+    prevColor5 = this.style.backgroundColor;
+    this.style.backgroundColor = green;
+    if(prevColor5 == this.style.backgroundColor)
+    {
+        this.style.backgroundColor = blue;
+    }
 });
 
 lado6.addEventListener('click',function(e){
-    this.style.backgroundColor = '#00AA00';
+    prevColor6 = this.style.backgroundColor;
+    this.style.backgroundColor = green;
+    if(prevColor6 == this.style.backgroundColor)
+    {
+        this.style.backgroundColor = blue;
+    }
 });
 
 lado7.addEventListener('click',function(e){
-    this.style.backgroundColor = '#00AA00';
+    prevColor7 = this.style.backgroundColor;
+    this.style.backgroundColor = green;
+    if(prevColor7 == this.style.backgroundColor)
+    {
+        this.style.backgroundColor = blue;
+    }
 });
 
 lado8.addEventListener('click',function(e){
-    this.style.backgroundColor = '#00AA00';
+    prevColor8 = this.style.backgroundColor;
+    this.style.backgroundColor = green;
+    if(prevColor8 == this.style.backgroundColor)
+    {
+        this.style.backgroundColor = blue;
+    }
 });
 
 lado9.addEventListener('click',function(e){
-    this.style.backgroundColor = '#00AA00';
+    prevColor9 = this.style.backgroundColor;
+    this.style.backgroundColor = green;
+    if(prevColor9 == this.style.backgroundColor)
+    {
+        this.style.backgroundColor = blue;
+    }
 });
