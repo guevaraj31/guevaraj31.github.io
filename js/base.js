@@ -10,12 +10,12 @@ var lado8 = document.getElementById("lado8");
 var lado9 = document.getElementById("lado9");
 
 /*Color*/
-var blue    = '#0000AA';
-var green   = '#00AA00';
-var red     = '#AA0000';
-var yellow  = '#FFFF00';
-var orange  = '#FFA500';
-var white   = '#FFFFFF';
+var blue    = 'rgb(0, 0, 170)';
+var green   = 'rgb(0, 170, 0)';
+var red     = 'rgb(170, 0, 0)';
+var yellow  = 'rgb(255, 255, 0)';
+var orange  = 'rgb(255, 88, 0)';
+var white   = 'rgb(255, 255, 255)';
 var prevColor1, prevColor2, prevColor3;
 var prevColor4, prevColor5, prevColor6;
 var prevColor7, prevColor8, prevColor9;
@@ -40,9 +40,24 @@ function rgbToHex(col)
 lado1.addEventListener('click',function(e){
     prevColor1 = this.style.backgroundColor;
     this.style.backgroundColor = green;
-    if(prevColor1 == this.style.backgroundColor)
-    {
-        this.style.backgroundColor = blue;
+    switch (prevColor1) {
+        case orange:
+            this.style.backgroundColor = white;
+            break;
+        case yellow:
+            this.style.backgroundColor = orange;
+            break;
+        case red:
+            this.style.backgroundColor = yellow;
+            break;
+        case green:
+            this.style.backgroundColor = red;
+            break;
+        case blue:
+            this.style.backgroundColor = green;
+            break;    
+        default:
+            this.style.backgroundColor = blue;
     }
 });
 
