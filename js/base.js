@@ -64,71 +64,191 @@ lado1.addEventListener('click',function(e){
 lado2.addEventListener('click',function(e){
     prevColor2 = this.style.backgroundColor;
     this.style.backgroundColor = green;
-    if(prevColor2 == this.style.backgroundColor)
-    {
-        this.style.backgroundColor = blue;
-    }
+    switch (prevColor2) {
+        case orange:
+            this.style.backgroundColor = white;
+            break;
+        case yellow:
+            this.style.backgroundColor = orange;
+            break;
+        case red:
+            this.style.backgroundColor = yellow;
+            break;
+        case green:
+            this.style.backgroundColor = red;
+            break;
+        case blue:
+            this.style.backgroundColor = green;
+            break;    
+        default:
+            this.style.backgroundColor = blue;
+    }   
 });
 
 lado3.addEventListener('click',function(e){
     prevColor3 = this.style.backgroundColor;
     this.style.backgroundColor = green;
-    if(prevColor3 == this.style.backgroundColor)
-    {
-        this.style.backgroundColor = blue;
+    switch (prevColor3) {
+        case orange:
+            this.style.backgroundColor = white;
+            break;
+        case yellow:
+            this.style.backgroundColor = orange;
+            break;
+        case red:
+            this.style.backgroundColor = yellow;
+            break;
+        case green:
+            this.style.backgroundColor = red;
+            break;
+        case blue:
+            this.style.backgroundColor = green;
+            break;    
+        default:
+            this.style.backgroundColor = blue;
     }
 });
 
 lado4.addEventListener('click',function(e){
     prevColor4 = this.style.backgroundColor;
     this.style.backgroundColor = green;
-    if(prevColor4 == this.style.backgroundColor)
-    {
-        this.style.backgroundColor = blue;
+    switch (prevColor4) {
+        case orange:
+            this.style.backgroundColor = white;
+            break;
+        case yellow:
+            this.style.backgroundColor = orange;
+            break;
+        case red:
+            this.style.backgroundColor = yellow;
+            break;
+        case green:
+            this.style.backgroundColor = red;
+            break;
+        case blue:
+            this.style.backgroundColor = green;
+            break;    
+        default:
+            this.style.backgroundColor = blue;
     }
 });
 
 lado5.addEventListener('click',function(e){
     prevColor5 = this.style.backgroundColor;
     this.style.backgroundColor = green;
-    if(prevColor5 == this.style.backgroundColor)
-    {
-        this.style.backgroundColor = blue;
+    switch (prevColor5) {
+        case orange:
+            this.style.backgroundColor = white;
+            break;
+        case yellow:
+            this.style.backgroundColor = orange;
+            break;
+        case red:
+            this.style.backgroundColor = yellow;
+            break;
+        case green:
+            this.style.backgroundColor = red;
+            break;
+        case blue:
+            this.style.backgroundColor = green;
+            break;    
+        default:
+            this.style.backgroundColor = blue;
     }
 });
 
 lado6.addEventListener('click',function(e){
     prevColor6 = this.style.backgroundColor;
     this.style.backgroundColor = green;
-    if(prevColor6 == this.style.backgroundColor)
-    {
-        this.style.backgroundColor = blue;
+    switch (prevColor6) {
+        case orange:
+            this.style.backgroundColor = white;
+            break;
+        case yellow:
+            this.style.backgroundColor = orange;
+            break;
+        case red:
+            this.style.backgroundColor = yellow;
+            break;
+        case green:
+            this.style.backgroundColor = red;
+            break;
+        case blue:
+            this.style.backgroundColor = green;
+            break;    
+        default:
+            this.style.backgroundColor = blue;
     }
 });
 
 lado7.addEventListener('click',function(e){
     prevColor7 = this.style.backgroundColor;
     this.style.backgroundColor = green;
-    if(prevColor7 == this.style.backgroundColor)
-    {
-        this.style.backgroundColor = blue;
+    switch (prevColor7) {
+        case orange:
+            this.style.backgroundColor = white;
+            break;
+        case yellow:
+            this.style.backgroundColor = orange;
+            break;
+        case red:
+            this.style.backgroundColor = yellow;
+            break;
+        case green:
+            this.style.backgroundColor = red;
+            break;
+        case blue:
+            this.style.backgroundColor = green;
+            break;    
+        default:
+            this.style.backgroundColor = blue;
     }
 });
 
 lado8.addEventListener('click',function(e){
     prevColor8 = this.style.backgroundColor;
     this.style.backgroundColor = green;
-    if(prevColor8 == this.style.backgroundColor)
-    {
-        this.style.backgroundColor = blue;
+    switch (prevColor8) {
+        case orange:
+            this.style.backgroundColor = white;
+            break;
+        case yellow:
+            this.style.backgroundColor = orange;
+            break;
+        case red:
+            this.style.backgroundColor = yellow;
+            break;
+        case green:
+            this.style.backgroundColor = red;
+            break;
+        case blue:
+            this.style.backgroundColor = green;
+            break;    
+        default:
+            this.style.backgroundColor = blue;
     }
 });
 
 lado9.addEventListener('click',function(e){
     prevColor9 = this.style.backgroundColor;
     this.style.backgroundColor = green;
-    if(prevColor9 == this.style.backgroundColor)
-    {
-        this.style.backgroundColor = blue;
+    switch (prevColor9) {
+        case orange:
+            this.style.backgroundColor = white;
+            break;
+        case yellow:
+            this.style.backgroundColor = orange;
+            break;
+        case red:
+            this.style.backgroundColor = yellow;
+            break;
+        case green:
+            this.style.backgroundColor = red;
+            break;
+        case blue:
+            this.style.backgroundColor = green;
+            break;    
+        default:
+            this.style.backgroundColor = blue;
     }
 });
