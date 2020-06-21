@@ -9,6 +9,7 @@ var lado7 = document.getElementById("lado7");
 var lado8 = document.getElementById("lado8");
 var lado9 = document.getElementById("lado9");
 
+
 /*Color*/
 var blue    = 'rgb(0, 0, 170)';
 var green   = 'rgb(0, 170, 0)';
@@ -43,21 +44,27 @@ lado1.addEventListener('click',function(e){
     switch (prevColor1) {
         case orange:
             this.style.backgroundColor = white;
+            document.getElementById("texto-color").innerHTML = "Blanco!"; 
             break;
         case yellow:
             this.style.backgroundColor = orange;
+            document.getElementById("texto-color").innerHTML = "Naranja!";
             break;
         case red:
             this.style.backgroundColor = yellow;
+            document.getElementById("texto-color").innerHTML = "Amarillo!";
             break;
         case green:
             this.style.backgroundColor = red;
+            document.getElementById("texto-color").innerHTML = "Rojo!";
             break;
         case blue:
             this.style.backgroundColor = green;
+            document.getElementById("texto-color").innerHTML = "Verde!";
             break;    
         default:
             this.style.backgroundColor = blue;
+            document.getElementById("texto-color").innerHTML = "Azul!";
     }
 });
 
