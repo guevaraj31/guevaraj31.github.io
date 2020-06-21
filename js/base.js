@@ -20,7 +20,9 @@ var white   = 'rgb(255, 255, 255)';
 var prevColor1, prevColor2, prevColor3;
 var prevColor4, prevColor5, prevColor6;
 var prevColor7, prevColor8, prevColor9;
-
+var color1, color2, color3;
+var color4, color5, color6;
+var color7, color8, color9;
 /*Asignacion */
 lado1.style.backgroundColor = blue;
 
@@ -44,28 +46,35 @@ lado1.addEventListener('click',function(e){
     switch (prevColor1) {
         case orange:
             this.style.backgroundColor = white;
-            document.getElementById("texto-color").innerHTML = "Blanco!"; 
+            color1 = 'blanco';
+            //document.getElementById("texto-color").innerHTML = "Blanco!"; 
             break;
         case yellow:
             this.style.backgroundColor = orange;
-            document.getElementById("texto-color").innerHTML = "Naranja!";
+            color1 = 'naranja';
+            //document.getElementById("texto-color").innerHTML = "Naranja!";
             break;
         case red:
             this.style.backgroundColor = yellow;
-            document.getElementById("texto-color").innerHTML = "Amarillo!";
+            color1 = 'amarillo';
+            //document.getElementById("texto-color").innerHTML = "Amarillo!";
             break;
         case green:
             this.style.backgroundColor = red;
-            document.getElementById("texto-color").innerHTML = "Rojo!";
+            color1 = 'rojo';
+            //document.getElementById("texto-color").innerHTML = "Rojo!";
             break;
         case blue:
             this.style.backgroundColor = green;
-            document.getElementById("texto-color").innerHTML = "Verde!";
+            color1 = 'verde';
+            //document.getElementById("texto-color").innerHTML = "Verde!";
             break;    
         default:
             this.style.backgroundColor = blue;
-            document.getElementById("texto-color").innerHTML = "Azul!";
+            color1 = 'azul';
+            //document.getElementById("texto-color").innerHTML = "Azul!";
     }
+    checkColor();
 });
 
 lado2.addEventListener('click',function(e){
@@ -74,22 +83,29 @@ lado2.addEventListener('click',function(e){
     switch (prevColor2) {
         case orange:
             this.style.backgroundColor = white;
+            color2 = 'blanco';
             break;
         case yellow:
             this.style.backgroundColor = orange;
+            color2 = 'naranja';
             break;
         case red:
             this.style.backgroundColor = yellow;
+            color2 = 'amarillo';
             break;
         case green:
             this.style.backgroundColor = red;
+            color2 = 'rojo';
             break;
         case blue:
             this.style.backgroundColor = green;
+            color2 = 'verde';
             break;    
         default:
             this.style.backgroundColor = blue;
-    }   
+            color2 = 'azul';
+    }
+    checkColor();   
 });
 
 lado3.addEventListener('click',function(e){
@@ -259,3 +275,34 @@ lado9.addEventListener('click',function(e){
             this.style.backgroundColor = blue;
     }
 });
+
+function checkColor(){
+    if(color1 == color2)
+    {
+        switch(color1) {
+            case 'blanco':
+                document.getElementById("texto-color").innerHTML = "Has reunido el color Blanco!";
+                break;
+            case 'naranja':
+                document.getElementById("texto-color").innerHTML = "Has reunido el color Naranja!";
+                break;
+            case 'amarillo':
+                document.getElementById("texto-color").innerHTML = "Has reunido el color Amarillo!";
+                break;
+            case 'rojo':
+                document.getElementById("texto-color").innerHTML = "Has reunido el color Rojo!";
+                break;
+            case 'verde':
+                document.getElementById("texto-color").innerHTML = "Has reunido el color Verde!";
+                break;
+            case 'azul':
+                document.getElementById("texto-color").innerHTML = "Has reunido el color Azul!";
+                break;
+        } 
+    }
+    else
+    {
+        document.getElementById("texto-color").innerHTML = "";
+    }
+    
+}
