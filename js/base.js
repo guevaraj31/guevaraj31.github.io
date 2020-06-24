@@ -207,22 +207,29 @@ lado6.addEventListener('click',function(e){
     switch (prevColor6) {
         case orange:
             this.style.backgroundColor = white;
+            color6 = 'blanco';
             break;
         case yellow:
             this.style.backgroundColor = orange;
+            color6 = 'naranja';
             break;
         case red:
             this.style.backgroundColor = yellow;
+            color6 = 'amarillo';
             break;
         case green:
             this.style.backgroundColor = red;
+            color6 = 'rojo';
             break;
         case blue:
             this.style.backgroundColor = green;
+            color6 = 'verde';
             break;    
         default:
             this.style.backgroundColor = blue;
+            color6 = 'azul';
     }
+    checkColor(); 
 });
 
 lado7.addEventListener('click',function(e){
@@ -231,22 +238,29 @@ lado7.addEventListener('click',function(e){
     switch (prevColor7) {
         case orange:
             this.style.backgroundColor = white;
+            color7 = 'blanco';
             break;
         case yellow:
             this.style.backgroundColor = orange;
+            color7 = 'naranja';
             break;
         case red:
             this.style.backgroundColor = yellow;
+            color7 = 'amarillo';
             break;
         case green:
             this.style.backgroundColor = red;
+            color7 = 'rojo';
             break;
         case blue:
             this.style.backgroundColor = green;
+            color7 = 'verde';
             break;    
         default:
             this.style.backgroundColor = blue;
+            color7 = 'azul';
     }
+    checkColor(); 
 });
 
 lado8.addEventListener('click',function(e){
@@ -255,22 +269,29 @@ lado8.addEventListener('click',function(e){
     switch (prevColor8) {
         case orange:
             this.style.backgroundColor = white;
+            color8 = 'blanco';
             break;
         case yellow:
             this.style.backgroundColor = orange;
+            color8 = 'naranja';
             break;
         case red:
             this.style.backgroundColor = yellow;
+            color8 = 'amarillo';
             break;
         case green:
             this.style.backgroundColor = red;
+            color8 = 'rojo';
             break;
         case blue:
             this.style.backgroundColor = green;
+            color8 = 'verde';
             break;    
         default:
             this.style.backgroundColor = blue;
+            color8 = 'azul';
     }
+    checkColor(); 
 });
 
 lado9.addEventListener('click',function(e){
