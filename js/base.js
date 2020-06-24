@@ -176,22 +176,29 @@ lado5.addEventListener('click',function(e){
     switch (prevColor5) {
         case orange:
             this.style.backgroundColor = white;
+            color5 = 'blanco';
             break;
         case yellow:
             this.style.backgroundColor = orange;
+            color5 = 'naranja';
             break;
         case red:
             this.style.backgroundColor = yellow;
+            color5 = 'amarillo';
             break;
         case green:
             this.style.backgroundColor = red;
+            color5 = 'rojo';
             break;
         case blue:
             this.style.backgroundColor = green;
+            color5 = 'verde';
             break;    
         default:
             this.style.backgroundColor = blue;
+            color5 = 'azul';
     }
+    checkColor(); 
 });
 
 lado6.addEventListener('click',function(e){
@@ -291,7 +298,7 @@ lado9.addEventListener('click',function(e){
 });
 
 function checkColor(){
-    if(color1 == color2 && color2 == color3 && color3 == color4)
+    if(color1 == color2 && color2 == color3 && color3 == color4 && color4 == color5)
     {
         switch(color1) {
             case 'blanco':
