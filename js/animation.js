@@ -1,10 +1,21 @@
 
 var x,y,n=0,ny=0,rotINT,rotYINT
-function rotateDIV()
+function rotateDIV(nColor)
 {
-    x=document.getElementById("lado1")
-    clearInterval(rotINT)
-    rotINT=setInterval("startRotate()",10)
+    switch (nColor) {
+        case 1:
+            x=document.getElementById("lado1")
+            clearInterval(rotINT)
+            rotINT=setInterval("startRotate()",10)       
+            break;
+        case 2:
+            x=document.getElementById("lado2")
+            clearInterval(rotINT)
+            rotINT=setInterval("startRotate()",10)       
+            break;
+        default:
+            break;
+    }
 }
 function startRotate()
 {

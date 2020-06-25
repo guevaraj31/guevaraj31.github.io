@@ -331,10 +331,11 @@ function checkColor(){
         switch(color1) {
             case 'blanco':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Blanco!";
+                rotateDIV(1);
                 break;
             case 'naranja':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Naranja!";
-                rotateDIV();
+                rotateDIV(2);
                 break;
             case 'amarillo':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Amarillo!";
