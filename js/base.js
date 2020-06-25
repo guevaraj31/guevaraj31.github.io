@@ -300,26 +300,33 @@ lado9.addEventListener('click',function(e){
     switch (prevColor9) {
         case orange:
             this.style.backgroundColor = white;
+            color9 = 'blanco';
             break;
         case yellow:
             this.style.backgroundColor = orange;
+            color9 = 'naranja';
             break;
         case red:
             this.style.backgroundColor = yellow;
+            color9 = 'amarillo';
             break;
         case green:
             this.style.backgroundColor = red;
+            color9 = 'rojo';
             break;
         case blue:
             this.style.backgroundColor = green;
+            color9 = 'verde';
             break;    
         default:
             this.style.backgroundColor = blue;
+            color9 = 'azul';
     }
+    checkColor(); 
 });
 
 function checkColor(){
-    if(color1 == color2 && color2 == color3 && color3 == color4 && color4 == color5)
+    if(color1 == color2 && color2 == color3 && color3 == color4 && color4 == color5 && color5 == color6 && color6 == color7 && color7 == color8 && color8 == color9)
     {
         switch(color1) {
             case 'blanco':
