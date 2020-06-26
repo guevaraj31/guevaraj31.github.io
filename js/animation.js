@@ -22,7 +22,17 @@ function rotateDIV(nColor)
             x=document.getElementById("lado4")
             clearInterval(rotINT)
             rotINT=setInterval("startRotate()",10)       
-            break;            
+            break;    
+        case 5:
+            x=document.getElementById("lado5")
+            clearInterval(rotINT)
+            rotINT=setInterval("startRotate()",10)       
+            break;                        
+        case 6:
+            x=document.getElementById("lado6")
+            clearInterval(rotINT)
+            rotINT=setInterval("startRotate()",10)       
+            break;                
         default:
             break;
     }

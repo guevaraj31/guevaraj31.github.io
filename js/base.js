@@ -347,9 +347,11 @@ function checkColor(){
                 break;
             case 'verde':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Verde!";
+                rotateDIV(5);
                 break;
             case 'azul':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Azul!";
+                rotateDIV(6);
                 break;
         } 
     }
