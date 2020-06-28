@@ -332,60 +332,60 @@ function checkColor(){
             case 'blanco':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Blanco!";
                 rotateDIV(1);
-                document.getElementById("lado1").classList.toggle('flexible');
+                /*document.getElementById("lado1").classList.toggle('flexible');
                 document.getElementById("lado3").classList.toggle('flexible');
                 document.getElementById("lado7").classList.toggle('flexible');
-                document.getElementById("lado9").classList.toggle('flexible');
+                document.getElementById("lado9").classList.toggle('flexible');*/
                 break;
             case 'naranja':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Naranja!";
                 rotateDIV(2);
-                document.getElementById("lado1").classList.toggle('flexible');
+                /*document.getElementById("lado1").classList.toggle('flexible');
                 document.getElementById("lado3").classList.toggle('flexible');
                 document.getElementById("lado7").classList.toggle('flexible');
-                document.getElementById("lado9").classList.toggle('flexible');
+                document.getElementById("lado9").classList.toggle('flexible');*/
                 break;
             case 'amarillo':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Amarillo!";
                 rotateDIV(3);
-                document.getElementById("lado1").classList.toggle('flexible');
+                /*document.getElementById("lado1").classList.toggle('flexible');
                 document.getElementById("lado3").classList.toggle('flexible');
                 document.getElementById("lado7").classList.toggle('flexible');
-                document.getElementById("lado9").classList.toggle('flexible');
+                document.getElementById("lado9").classList.toggle('flexible');*/
                 break;
             case 'rojo':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Rojo!";
                 rotateDIV(4);
-                document.getElementById("lado1").classList.toggle('flexible');
+                /*document.getElementById("lado1").classList.toggle('flexible');
                 document.getElementById("lado3").classList.toggle('flexible');
                 document.getElementById("lado7").classList.toggle('flexible');
-                document.getElementById("lado9").classList.toggle('flexible');
+                document.getElementById("lado9").classList.toggle('flexible');*/
                 break;
             case 'verde':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Verde!";
                 rotateDIV(5);
-                document.getElementById("lado1").classList.toggle('flexible');
+                /*document.getElementById("lado1").classList.toggle('flexible');
                 document.getElementById("lado3").classList.toggle('flexible');
                 document.getElementById("lado7").classList.toggle('flexible');
-                document.getElementById("lado9").classList.toggle('flexible');
+                document.getElementById("lado9").classList.toggle('flexible');*/
                 break;
             case 'azul':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Azul!";
                 rotateDIV(6);
-                document.getElementById("lado1").classList.toggle('flexible');
+                /*document.getElementById("lado1").classList.toggle('flexible');
                 document.getElementById("lado3").classList.toggle('flexible');
                 document.getElementById("lado7").classList.toggle('flexible');
-                document.getElementById("lado9").classList.toggle('flexible');
+                document.getElementById("lado9").classList.toggle('flexible');*/
                 break;
         } 
     }
     else
     {
         document.getElementById("texto-color").innerHTML = "";
-        document.getElementById("lado1").classList.toggle('flexible');
+        /*document.getElementById("lado1").classList.toggle('flexible');
         document.getElementById("lado3").classList.toggle('flexible');
         document.getElementById("lado7").classList.toggle('flexible');
-        document.getElementById("lado9").classList.toggle('flexible');
+        document.getElementById("lado9").classList.toggle('flexible');*/
     }
     
 }
