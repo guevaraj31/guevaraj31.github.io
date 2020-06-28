@@ -364,10 +364,18 @@ function checkColor(){
             case 'verde':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Verde!";
                 rotateDIV(5);
+                document.getElementById("lado1").classList.toggle('flexible');
+                document.getElementById("lado3").classList.toggle('flexible');
+                document.getElementById("lado7").classList.toggle('flexible');
+                document.getElementById("lado9").classList.toggle('flexible');
                 break;
             case 'azul':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Azul!";
                 rotateDIV(6);
+                document.getElementById("lado1").classList.toggle('flexible');
+                document.getElementById("lado3").classList.toggle('flexible');
+                document.getElementById("lado7").classList.toggle('flexible');
+                document.getElementById("lado9").classList.toggle('flexible');
                 break;
         } 
     }
