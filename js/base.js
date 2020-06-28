@@ -340,6 +340,10 @@ function checkColor(){
             case 'naranja':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Naranja!";
                 rotateDIV(2);
+                document.getElementById("lado1").classList.toggle('flexible');
+                document.getElementById("lado3").classList.toggle('flexible');
+                document.getElementById("lado7").classList.toggle('flexible');
+                document.getElementById("lado9").classList.toggle('flexible');
                 break;
             case 'amarillo':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Amarillo!";
