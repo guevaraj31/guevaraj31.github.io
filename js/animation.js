@@ -50,3 +50,30 @@ function startRotate()
         if (n==360){n=0}
     }
 }
+function rotateYDIV(nColor)
+{
+    switch (nColor) {
+        case 1:
+            y=document.getElementById("lado1");
+            clearInterval(rotYINT);
+            rotYINT=setInterval("startYRotate()",10);
+            document.getElementById("lado1").innerHTML = '';     
+            break; 
+        default:
+            break;
+    }
+}
+
+function startYRotate()
+{
+    ny=ny+1
+    y.style.transform="rotateY(" + ny + "deg)"
+    y.style.webkitTransform="rotateY(" + ny + "deg)"
+    y.style.OTransform="rotateY(" + ny + "deg)"
+    y.style.MozTransform="rotateY(" + ny + "deg)"
+    if (ny==180 || ny>=360)
+    {
+        clearInterval(rotYINT)
+        if (ny>=360){ny=0}
+    }
+}

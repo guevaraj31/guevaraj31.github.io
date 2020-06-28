@@ -331,7 +331,8 @@ function checkColor(){
         switch(color1) {
             case 'blanco':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Blanco!";
-                rotateDIV(1);
+                //rotateDIV(1);
+                rotateYDIV(1);
                 /*document.getElementById("lado1").classList.toggle('flexible');
                 document.getElementById("lado3").classList.toggle('flexible');
                 document.getElementById("lado7").classList.toggle('flexible');
