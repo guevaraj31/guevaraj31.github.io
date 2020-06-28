@@ -332,6 +332,10 @@ function checkColor(){
             case 'blanco':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Blanco!";
                 rotateDIV(1);
+                document.getElementById("lado1").classList.toggle('flexible');
+                document.getElementById("lado3").classList.toggle('flexible');
+                document.getElementById("lado7").classList.toggle('flexible');
+                document.getElementById("lado9").classList.toggle('flexible');
                 break;
             case 'naranja':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Naranja!";
@@ -358,6 +362,10 @@ function checkColor(){
     else
     {
         document.getElementById("texto-color").innerHTML = "";
+        document.getElementById("lado1").classList.toggle('flexible');
+        document.getElementById("lado3").classList.toggle('flexible');
+        document.getElementById("lado7").classList.toggle('flexible');
+        document.getElementById("lado9").classList.toggle('flexible');
     }
     
 }
