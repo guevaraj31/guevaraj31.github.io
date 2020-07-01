@@ -1,5 +1,5 @@
 
-var x,y,n=0,ny=0,rotINT,rotYINT
+var x,y,n=0,ny=0,rotINT,rotYINT,nCheck=0;
 function rotateDIV(nColor)
 {
     switch (nColor) {
@@ -50,14 +50,27 @@ function startRotate()
         if (n==360){n=0}
     }
 }
+
+function randomNumber() {
+    var x = Math.floor((Math.random() * 9) + 1);
+    return x;
+}
+
 function rotateYDIV(nColor)
 {   
     clearInterval(rotYINT);
     rotYINT=setInterval("startYRotate()",10);
+    nCheck+=1;
     var l = 1;
     while(l <= 9)
     {
-        document.getElementById("lado"+l).innerHTML = '';
+        if( nCheck % 2 )
+        {
+            document.getElementById("lado"+l).innerHTML = "";
+        }
+        else{
+            document.getElementById("lado"+l).innerHTML = randomNumber();
+        }
         l+=1;
     }
     

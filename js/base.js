@@ -332,52 +332,32 @@ function checkColor(){
             case 'blanco':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Blanco!";
                 //rotateDIV(1);
-                rotateYDIV(1);
-                /*document.getElementById("lado1").classList.toggle('flexible');
-                document.getElementById("lado3").classList.toggle('flexible');
-                document.getElementById("lado7").classList.toggle('flexible');
-                document.getElementById("lado9").classList.toggle('flexible');*/
+                rotateYDIV(1);                
                 break;
             case 'naranja':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Naranja!";
-                rotateDIV(2);
-                /*document.getElementById("lado1").classList.toggle('flexible');
-                document.getElementById("lado3").classList.toggle('flexible');
-                document.getElementById("lado7").classList.toggle('flexible');
-                document.getElementById("lado9").classList.toggle('flexible');*/
+                //rotateDIV(2);
+                rotateYDIV(1);
                 break;
             case 'amarillo':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Amarillo!";
-                rotateDIV(3);
-                /*document.getElementById("lado1").classList.toggle('flexible');
-                document.getElementById("lado3").classList.toggle('flexible');
-                document.getElementById("lado7").classList.toggle('flexible');
-                document.getElementById("lado9").classList.toggle('flexible');*/
+                //rotateDIV(3);
+                rotateYDIV(1);
                 break;
             case 'rojo':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Rojo!";
-                rotateDIV(4);
-                /*document.getElementById("lado1").classList.toggle('flexible');
-                document.getElementById("lado3").classList.toggle('flexible');
-                document.getElementById("lado7").classList.toggle('flexible');
-                document.getElementById("lado9").classList.toggle('flexible');*/
+                //rotateDIV(4);
+                rotateYDIV(1);
                 break;
             case 'verde':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Verde!";
                 //rotateDIV(5);
                 rotateYDIV(1);
-                /*document.getElementById("lado1").classList.toggle('flexible');
-                document.getElementById("lado3").classList.toggle('flexible');
-                document.getElementById("lado7").classList.toggle('flexible');
-                document.getElementById("lado9").classList.toggle('flexible');*/
                 break;
             case 'azul':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Azul!";
-                rotateDIV(6);
-                /*document.getElementById("lado1").classList.toggle('flexible');
-                document.getElementById("lado3").classList.toggle('flexible');
-                document.getElementById("lado7").classList.toggle('flexible');
-                document.getElementById("lado9").classList.toggle('flexible');*/
+                //rotateDIV(6);
+                rotateYDIV(1);
                 break;
         } 
     }
