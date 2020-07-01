@@ -364,7 +364,8 @@ function checkColor(){
                 break;
             case 'verde':
                 document.getElementById("texto-color").innerHTML = "Has reunido el color Verde!";
-                rotateDIV(5);
+                //rotateDIV(5);
+                rotateYDIV(1);
                 /*document.getElementById("lado1").classList.toggle('flexible');
                 document.getElementById("lado3").classList.toggle('flexible');
                 document.getElementById("lado7").classList.toggle('flexible');

@@ -51,29 +51,35 @@ function startRotate()
     }
 }
 function rotateYDIV(nColor)
-{
-    switch (nColor) {
-        case 1:
-            y=document.getElementById("lado1");
-            clearInterval(rotYINT);
-            rotYINT=setInterval("startYRotate()",10);
-            document.getElementById("lado1").innerHTML = '';     
-            break; 
-        default:
-            break;
+{   
+    clearInterval(rotYINT);
+    rotYINT=setInterval("startYRotate()",10);
+    var l = 1;
+    while(l <= 9)
+    {
+        document.getElementById("lado"+l).innerHTML = '';
+        l+=1;
     }
+    
 }
 
 function startYRotate()
 {
-    ny=ny+1
-    y.style.transform="rotateY(" + ny + "deg)"
-    y.style.webkitTransform="rotateY(" + ny + "deg)"
-    y.style.OTransform="rotateY(" + ny + "deg)"
-    y.style.MozTransform="rotateY(" + ny + "deg)"
-    if (ny==180 || ny>=360)
+    var i = 1;
+    while(i <= 9)
     {
-        clearInterval(rotYINT)
-        if (ny>=360){ny=0}
+        y=document.getElementById("lado"+i);
+        ny=ny+1
+        y.style.transform="rotateY(" + ny + "deg)"
+        y.style.webkitTransform="rotateY(" + ny + "deg)"
+        y.style.OTransform="rotateY(" + ny + "deg)"
+        y.style.MozTransform="rotateY(" + ny + "deg)"
+        if (ny==180 || ny>=360)
+        {
+            clearInterval(rotYINT)
+            if (ny>=360){ny=0}
+        }
+        i+=1;    
     }
+    
 }
