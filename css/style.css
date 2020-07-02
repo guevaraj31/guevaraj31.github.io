@@ -67,4 +67,12 @@ h2 {
 #home{
 	min-height: 400px;
 	width: 100%;
+	background-position: bottom;
+	display: flex;
+}
+
+#home .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
