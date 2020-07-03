@@ -76,3 +76,9 @@ h2 {
 	align-items: center;
 	justify-content: center;
 }
+
+#lenguaje {
+  min-height: 400px;
+  width: 100%;
+  background-color: #f8f8f8;
+}
