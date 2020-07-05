@@ -88,3 +88,9 @@ h2 {
   width: 100%;
   background-color: #b2cab6;
 }
+
+#texto-color {
+  color: #000;
+  text-align: center;
+  margin: 20px;
+}
