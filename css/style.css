@@ -96,7 +96,8 @@ h2 {
 }
 
 .lenguajes{
-
+	display: flex;
+	align-items: center;
 }
 
 .logo-lenguaje img{
