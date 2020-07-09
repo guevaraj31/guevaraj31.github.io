@@ -105,11 +105,22 @@ h2 {
 	max-height:100px;
 }
 
+.frameworks {
+	display:flex;
+	align-items:center;
+}
+
+.logo-frameworks img{
+	max-width:100px;
+	max-height:100px;
+}
 #lenguaje h2{
 	text-align: center;
 	padding: 25px;
 }
+
 #frameworks h2{
 	text-align: center;
 	padding: 25px;
 }
+
