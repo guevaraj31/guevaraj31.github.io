@@ -86,7 +86,7 @@ h2 {
 #frameworks {
   min-height: 400px;
   width: 100%;
-  background-color: #b2cab6;
+  background-color: #ffffff;
 }
 
 #texto-color {
@@ -115,8 +115,13 @@ h2 {
 	align-items:center;
 }
 
+.logo-frameworks {
+  width: 33%;
+  text-align: center;
+}
+
 .logo-frameworks img{
-	max-width:100px;
+	max-width:150px;
 	max-height:100px;
 }
 #lenguaje h2{
