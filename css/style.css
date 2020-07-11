@@ -113,6 +113,8 @@ h2 {
 .frameworks {
 	display:flex;
 	align-items:center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .logo-frameworks {
@@ -134,3 +136,29 @@ h2 {
 	padding: 25px;
 }
 
+#cms {
+  min-height: 400px;
+  width: 100%;
+  background-color: #ffffff;
+}
+#cms h2{
+	text-align: center;
+	padding: 25px;
+}
+
+.cms {
+	display:flex;
+  align-items:center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.logo-cms {
+  width: 33%;
+  text-align: center;
+}
+
+.logo-cms img{
+	max-width:150px;
+	max-height:100px;
+}
