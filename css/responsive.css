@@ -7,6 +7,18 @@
     .logo-lenguaje {
 	width: auto;
     }
+    .frameworks {
+	display: block;
+    }
+    .logo-frameworks {
+	width: auto;
+    }
+    .cms {
+	display:block;
+    }
+    .logo-cms {
+	width: auto;
+    }
   }
  
   
